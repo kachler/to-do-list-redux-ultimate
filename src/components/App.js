@@ -4,7 +4,7 @@ import List from './List';
 
 const App = () => (
   <div>
-    <h1>Hello My Classy Friend</h1>
+    <h1>TODO</h1>
     <Form />
     <List />
   </div>

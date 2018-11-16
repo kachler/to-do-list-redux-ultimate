@@ -12,7 +12,7 @@ const List = (props) => {
           return (
             <li key={i}>
               {ele}
-              <button onClick={() => handleDelete(i)}>Delete</button>`
+              <button id="delete" onClick={() => handleDelete(i)}>√</button>
             </li>) 
         }) }
       </ul>

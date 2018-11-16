@@ -10,7 +10,7 @@ const Form = (props) => {
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={handleChange} value={currentText} />
         {/* {currentText} */}
-        <button type="submit">Submit</button>
+        <button id="submit" type="submit">Submit</button>
       </form>
     </div>
   );
